@@ -59,6 +59,9 @@ kotlin {
             implementation(libs.kotlinx.datetime)
 //            implementation(libs.room.runtime)
             implementation(libs.materialKolor)
+//            implementation("moe.tlaster:precompose:1.6.2") // or latest
+//            implementation(libs.precompose.navigation)
+
         }
 
         commonTest.dependencies {
