@@ -17,6 +17,6 @@ class AppActivity : ComponentActivity() {
 
 @Preview(showBackground = true)
 @Composable
-fun Prev(){
+fun Prev() {
     App()
 }
