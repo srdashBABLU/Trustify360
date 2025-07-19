@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.neurostax.trustify360.presentation.common.DataCollectionScreen
+import com.neurostax.trustify360.presentation.common.LoginScreen
 import com.neurostax.trustify360.presentation.common.PrivacyPolicyScreen
 import com.neurostax.trustify360.presentation.common.SplashScreen
 import com.neurostax.trustify360.presentation.common.TermsAndConditionsScreen
@@ -21,7 +22,11 @@ class AppActivity : ComponentActivity() {
 //            TermsAndConditionsScreen()
 //            DataCollectionScreen()
 //            SplashScreen()
-            TrustifyOnboardingScreen()
+//            TrustifyOnboardingScreen()
+            LoginScreen(
+                onLoginClicked = { email, password -> },
+                onSignupClicked = { email, password -> }
+            )
         }
     }
 }
