@@ -62,6 +62,12 @@ kotlin {
 //            implementation("moe.tlaster:precompose:1.6.2") // or latest
 //            implementation(libs.precompose.navigation)
             implementation(compose.materialIconsExtended)
+
+            // navigation dependencies !
+            implementation("cafe.adriel.voyager:voyager-transitions:1.0.1")
+            implementation("cafe.adriel.voyager:voyager-navigator:1.0.1")
+            implementation("cafe.adriel.voyager:voyager-bottom-sheet-navigator:1.0.1") // Optional
+            implementation("cafe.adriel.voyager:voyager-tab-navigator:1.0.1") // Optional
         }
 
         commonTest.dependencies {

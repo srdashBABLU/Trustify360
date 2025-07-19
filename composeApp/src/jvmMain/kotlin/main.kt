@@ -3,6 +3,8 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import com.neurostax.trustify360.App
+import com.neurostax.trustify360.core.manager.navigation.AppNavHost
+import com.neurostax.trustify360.presentation.common.PrivacyPolicyScreen
 import java.awt.Dimension
 
 fun main() = application {
@@ -12,7 +14,8 @@ fun main() = application {
         onCloseRequest = ::exitApplication,
     ) {
         window.minimumSize = Dimension(350, 600)
-        App()
+//        PrivacyPolicyScreen()
+        AppNavHost()
     }
 }
 
