@@ -56,7 +56,6 @@ object HomeScreen : Screen {
             }
         }
     }
-
 }
 
 data class ProfileScreen(val name: String) : Screen {

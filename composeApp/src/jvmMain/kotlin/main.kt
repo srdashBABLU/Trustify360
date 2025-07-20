@@ -19,14 +19,8 @@ fun main() = application {
 //        PrivacyPolicyScreen()
         //AppNavHost()
         LoginScreen(
-
-            onLoginClicked = {
-
-            } as (String, String) -> Unit,
-            onSignupClicked = {
-
-            }as (String, String) -> Unit,
-            Modifier
+            onLoginClicked = { email, password -> },
+            onSignupClicked = { email, password -> }
         )
 
     }
