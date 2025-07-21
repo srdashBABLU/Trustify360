@@ -63,7 +63,7 @@ val onboardingPages = listOf(
     OnboardingPage(
         title = "Smart Sales Pipeline",
         description = "Track deals, forecast revenue, and never miss an opportunity with our intelligent sales automation features.",
-        icon = Icons.Default.TrendingUp,
+        icon = Icons.AutoMirrored.Filled.TrendingUp,
         gradientColors = listOf(TrustifyAccent, TrustifyGold)
     ),
     OnboardingPage(
